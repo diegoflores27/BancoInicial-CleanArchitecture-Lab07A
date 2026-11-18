@@ -1,0 +1,24 @@
+LABORATORIO 07-A - RESULTADOS DE VERIFICACION REALIZADA
+Modalidad: individual
+Compilador utilizado: javac --release 17
+Ejecucion utilizada: java (pruebas independientes, sin JUnit)
+Maven: no disponible en el entorno en que se generó este proyecto.
+
+P01 - Registro: OK (saldo S/ 1000.00)
+P02 - Deposito: OK (saldo S/ 1200.00)
+P03 - Retiro: OK (saldo S/ 1050.00)
+P04 - Fondos insuficientes: OK (saldo S/ 1050.00)
+P05 - Monto negativo: OK (saldo S/ 1050.00)
+P06 - No reemplazar cuenta: OK (saldo S/ 1050.00)
+P07 - Reinicio sin recuperacion de cuenta: OK
+
+7/7 pruebas de comportamiento: OK
+
+Prueba manual adicional automatizada por entrada estandar:
+- Registro Ana 1000 / deposito 200 / retiro 150: saldo 1050.00.
+- Intentos de retiro 2000, deposito -10 y registro Luis: rechazados.
+- Archivo movimientos.txt creado con 3 movimientos aceptados.
+- En una segunda ejecucion del programa, consultar saldo: rechazada porque no hay cuenta activa.
+
+Este documento no reemplaza las capturas y ejecuciones que el estudiante debe realizar
+personalmente en IntelliJ IDEA para su evidencia.

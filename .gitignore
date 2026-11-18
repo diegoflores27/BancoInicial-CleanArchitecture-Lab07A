@@ -1,0 +1,6 @@
+target/
+.idea/
+*.iml
+.vscode/
+movimientos.txt
+*.log
